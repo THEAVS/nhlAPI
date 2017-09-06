@@ -16,11 +16,15 @@ def search(playerName):
 	for x in range(0, len(resp['data'])):
 	
 		if resp['data'][x]['playerLastName'].lower() == playerName:
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b4996f20dcd2729a567de1b8272ebf251b19b4f
 			print('https://nhl.bamcontent.com/images/headshots/current/168x168/' + str(resp['data'][x]['playerId']) + '.jpg')
 		
 
 
+<<<<<<< HEAD
 def stats(playerName):
 
 	for x in range(0, len(resp['data'])):
@@ -32,3 +36,5 @@ def stats(playerName):
 
 
 stats('matthews')
+=======
+>>>>>>> 4b4996f20dcd2729a567de1b8272ebf251b19b4f
